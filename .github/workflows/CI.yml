@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: addressbook-jar
-        path: factorial-generator/target/addressbook.jar
+        path: factorial-generator/factorial-generator/target/addressbook.jar
