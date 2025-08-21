@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: macOS-latest
+    runs-on: macos-15
 
     steps:
     - uses: actions/checkout@v4
@@ -33,5 +33,5 @@ jobs:
     - name: upload WAR artifact
       uses: actions/upload-artifact@v4
       with:
-        name: addressbook-war
-        path: target/addressbook.war
+        name: addressbook-jar
+        path: target/addressbook.jar
